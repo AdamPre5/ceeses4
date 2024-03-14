@@ -1,0 +1,45 @@
+div.parent-first {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+div.parent-drugi {
+    display: flex;
+    justify-content: left;
+    align-items:left;
+}
+div.parent-trzeci {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+div.pierwszy {
+    width: 400pt;
+    background-color: lightyellow;
+    height: 3cm;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    border-top: 1px silver groove;
+    border-bottom: 1px red groove;
+    border-left: 1px yellow groove;
+    border-right: 1px teal groove;
+    margin: 10px;
+}
+div.drugi {
+    width: 280pt;
+    height: 4cm;
+    background-color: yellow;
+    border: 1px #800000 ridge;
+    padding: 12px;
+}
+div.trzeci {
+    width: 350pt;
+    height: 2cm;
+    background-color: #d1cc3d;
+    padding: 30px;
+    border: 1px fuchsia ridge;
+    margin-top: 10px;
+}
+h1 {
+    font-size: 13px;
+}

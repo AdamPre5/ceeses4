@@ -1,0 +1,37 @@
+p#akapit1_pres {
+    font-family: serif;
+    color: #e43eb2;
+    text-decoration: underline;
+    text-indent: 2cm;
+    line-height: 1cm;
+    word-spacing: 12px;
+    letter-spacing: 5ex;
+    text-align: right;
+}
+
+p#akapit1_pres>.special {
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    font-size: normal;
+}
+
+p#akapit2_pres {
+    font-family: sans-serif;
+    color: #dfc245;
+    text-indent: 25mm;
+    line-height: 15mm;
+    word-spacing: 10pt;
+    letter-spacing: 0.5cm;
+    text-align: center;
+}
+
+p#akapit2_pres>.special {
+    text-decoration: line-through;
+    font-style: normal;
+    text-transform: small-caps;
+    font-size: 12px;
+    font-weight: 600;
+    font-size: normal;
+}

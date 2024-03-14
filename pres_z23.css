@@ -1,0 +1,32 @@
+#pogrubienie_pres {
+    font-size: 29px;
+    color: #8C60CE;
+}
+
+#pochylona_pres {
+    font-size: 34pt;
+    color: #F0C46A;
+}
+
+#index_gorny_pres {
+    font-size: 0.9cm;
+    color: #A0921A;
+}
+
+#index_dolny_pres {
+    font-size: 1.3cm;
+    color: rgb(24%, 96%, 89%);
+}
+
+#mono_pres {
+    font-size: 39px;
+    color: #20E26A;
+}
+
+#powiekszenie_pres {
+    color: #5A429C;
+}
+
+#pomniejszenie_pres {
+    color: rgb(75%, 65%, 22%);
+}

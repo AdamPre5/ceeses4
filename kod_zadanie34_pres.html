@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Adam Preś" />
+    <meta name="description" content="Opis strony" />
+    <meta name="keywords" content="Adam Preś" />
+    <title> Zadanie 36 </title>
+</head>
+<body>
+    <h1>
+        KOD HTML
+    </h1>
+    <textarea rows="100" cols="100">
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8" />
+            <title>Zadanie 34</title>
+            <link href="pres_z34.css" rel="stylesheet" type="text/CSS">
+            <meta charset="utf-8" />
+        </head>
+        <body>
+        
+            <div class="parent-first">
+                <div class="pierwszy"><h1>Preś<br>
+                    width: 400pt; height: 3cm;<br>
+                    background-color: lightyellow<br>
+                    padding: 25px; margin: 10px;<br>
+                    border-top: 1px silver groove;<br>
+                    border-bottom: 1px red groove;<br>
+                    border-left: 1px yellow groove;<br>
+                    border-right: 1px teal groove;<br>
+                </h1></div>
+            </div>
+        
+            <div class="parent-drugi">
+                <div class="drugi"><h1>Adam<br>
+                    width: 280pt;<br>
+                    height: 4cm;<br>
+                    background-color: yellow;<br>
+                    border: 1px #800000 ridged;<br>
+                    padding: 12px;<br>
+                </h1></div>
+            </div>
+            
+            <div class="parent-trzeci">
+                <div class="trzeci"><h1>20, 1P<br>
+                    width: 350pt;<br>
+                    height: 2cm;<br>
+                    background-color: #d1cc3d;<br>
+                    border: 1px fuchsia ridge;<br>
+                    margin-top: 10px;<br>
+                </h1></div>
+            </div>
+        
+        </body>
+        </html>
+        <!-- Adam Preś -->
+    </textarea>
+    <h1>
+        CSS
+    </h1>
+    <textarea rows="100" cols="100">
+        div.parent-first {
+            display: flex;
+            justify-content: center;
+            align-items:center;
+        }
+        div.parent-drugi {
+            display: flex;
+            justify-content: left;
+            align-items:left;
+        }
+        div.parent-trzeci {
+            display: flex;
+            justify-content: right;
+            align-items: right;
+        }
+        div.pierwszy {
+            width: 400pt;
+            background-color: lightyellow;
+            height: 3cm;
+            padding-left: 25px;
+            padding-bottom: 25px;
+            border-top: 1px silver groove;
+            border-bottom: 1px red groove;
+            border-left: 1px yellow groove;
+            border-right: 1px teal groove;
+            margin: 10px;
+        }
+        div.drugi {
+            width: 280pt;
+            height: 4cm;
+            background-color: yellow;
+            border: 1px #800000 ridge;
+            padding: 12px;
+        }
+        div.trzeci {
+            width: 350pt;
+            height: 2cm;
+            background-color: #d1cc3d;
+            padding: 30px;
+            border: 1px fuchsia ridge;
+            margin-top: 10px;
+        }
+        h1 {
+            font-size: 13px;
+        }
+    </textarea>
+</body>
+</html>
